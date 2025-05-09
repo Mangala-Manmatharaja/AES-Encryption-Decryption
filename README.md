@@ -27,6 +27,28 @@ This project implements **128-bit AES encryption and decryption** using Python a
 ## 🚀 Usage
 To encrypt or decrypt a 128-bit (4x4 byte) matrix:
 
+    import numpy as np
+    from aes_encryption import encrypt, decrypt
+
+      # Example 4x4 byte matrix (plaintext and key)
+        plaintext = np.array([
+        [0x32, 0x88, 0x31, 0xe0],
+        [0x43, 0x5a, 0x31, 0x37],
+        [0xf6, 0x30, 0x98, 0x07],
+        [0xa8, 0x8d, 0xa2, 0x34]
+        ], dtype=np.uint8)
+
+        key = np.array([
+        [0x2b, 0x28, 0xab, 0x09],
+        [0x7e, 0xae, 0xf7, 0xcf],
+        [0x15, 0xd2, 0x15, 0x4f],
+        [0x16, 0xa6, 0x88, 0x3c]
+        ], dtype=np.uint8)
+
+      ciphertext = encrypt(plaintext, key)
+      decrypted = decrypt(ciphertext, key)
+
+
 
 
 
