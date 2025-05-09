@@ -53,5 +53,9 @@ To encrypt or decrypt a 128-bit (4x4 byte) matrix:
 -  Practical application of Galois Field math in cryptography
 -  Manual implementation of cryptographic steps (S-Box, shift rows, mix columns)
 
+%% 🛡️ Disclaimer
+- This code is intended for educational purposes only and is not recommended for real-world secure encryption.
 
+## 👤 Author
+- Mangala-Manmatharaja
 
