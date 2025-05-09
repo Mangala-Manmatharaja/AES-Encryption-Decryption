@@ -19,7 +19,14 @@ This project implements **128-bit AES encryption and decryption** using Python a
 - galois (for finite field operations)
 
 ### 🔧 Installation
+  bash
+      
+      pip install numpy galois
 
-```bash
-pip install numpy galois
+---
+## 🚀 Usage
+To encrypt or decrypt a 128-bit (4x4 byte) matrix:
+
+
+
 
