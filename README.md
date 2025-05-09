@@ -49,9 +49,9 @@ To encrypt or decrypt a 128-bit (4x4 byte) matrix:
       decrypted = decrypt(ciphertext, key)
 
 ## 🧠 Learning Outcomes
-    >>>  Understanding of symmetric encryption and AES internals
-    >>>  Practical application of Galois Field math in cryptography
-    >>> Manual implementation of cryptographic steps (S-Box, shift rows, mix columns)
+-  Understanding of symmetric encryption and AES internals
+-  Practical application of Galois Field math in cryptography
+-  Manual implementation of cryptographic steps (S-Box, shift rows, mix columns)
 
 
 
