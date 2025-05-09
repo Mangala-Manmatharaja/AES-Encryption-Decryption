@@ -12,4 +12,14 @@ This project implements **128-bit AES encryption and decryption** using Python a
 - Custom implementation using NumPy and Galois fields
 - No reliance on high-level cryptographic libraries
 
-##
+## 📌 Requirements
+
+- Python 3.7+
+- numpy
+- galois (for finite field operations)
+
+### 🔧 Installation
+
+```bash
+pip install numpy galois
+
