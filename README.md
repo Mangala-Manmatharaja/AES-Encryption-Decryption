@@ -50,7 +50,7 @@ To encrypt or decrypt a 128-bit (4x4 byte) matrix:
 -  Manual implementation of cryptographic steps (S-Box, shift rows, mix columns)
 
 %% 🛡️ Disclaimer
-- This code is intended for educational purposes only and is not recommended for real-world secure encryption.
+- This implementation is for educational use only and is not secure for real-world applications. XOR encryption with static keys is vulnerable to many attacks.
 
 ## 👤 Author
 - Mangala-Manmatharaja
