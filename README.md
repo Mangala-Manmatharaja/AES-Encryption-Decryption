@@ -49,7 +49,7 @@ To encrypt or decrypt a 128-bit (4x4 byte) matrix:
 -  Practical application of Galois Field math in cryptography
 -  Manual implementation of cryptographic steps (S-Box, shift rows, mix columns)
 
-%% 🛡️ Disclaimer
+## 🛡️ Disclaimer
 - This implementation is for educational use only and is not secure for real-world applications. XOR encryption with static keys is vulnerable to many attacks.
 
 ## 👤 Author
