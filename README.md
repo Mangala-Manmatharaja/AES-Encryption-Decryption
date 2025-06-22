@@ -1,6 +1,6 @@
 # AES Encryption-Decryption using Python & Galois Field
 
-This project demonstrates simple XOR-based encryption and decryption using 128-bit (4x4 byte) matrices. It is implemented using Python and NumPy, primarily for educational purposes in understanding symmetric key operations at the byte lev.
+This project demonstrates simple XOR-based encryption and decryption using 128-bit (4x4 byte) matrices. It is implemented using Python and NumPy, primarily for educational purposes in understanding symmetric key operations at the byte leve.
 
 ## 🔐 Features
 
